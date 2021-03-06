@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a href="https://dev.to/rohanmehta_dev" className={styles.card}>
             <h3>Blog &rarr;</h3>
-            <p>Posts on application architecture</p>
+            <p>Posts on application design</p>
           </a>
 
           <a href="https://github.com/rohanmeh" className={styles.card}>
@@ -43,7 +43,7 @@ export default function Home() {
           >
             <h3>Twitter &rarr;</h3>
             <p>
-              Tweets on application architecture
+              Tweets on application design
             </p>
           </a>
         </div>
