@@ -13,33 +13,38 @@ export default function Home() {
         <h1 className={styles.title}>
           Rohan Mehta
         </h1>
-        <h2 className={styles.h2}>
+
+        <p className={styles.description}>
           Serverless Architect
-        </h2>
+        </p>
+
         <div className={styles.grid}>
-          <a href="https://github.com/rohanmeh/" className={styles.card}>
-            <h3>GitHub</h3>
-            <p>Side projects and prototypes.</p>
+          <a href="https://dev.to/rohanmehta_dev" className={styles.card}>
+            <h3>Blog &rarr;</h3>
+            <p>Posts on application architecture</p>
           </a>
-          <a
-            href="https://dev.to/rohanmehta_dev"
-            className={styles.card}
-          >
-            <h3>Blog</h3>
-            <p>
-              Posts on application architecture.
-            </p>
+
+          <a href="https://github.com/rohanmeh" className={styles.card}>
+            <h3>GitHub &rarr;</h3>
+            <p>Side projects and prototypes</p>
           </a>
-          <a href="https://twitter.com/rohanmehta_dev" className={styles.card}>
-            <h3>Twitter</h3>
-            <p>Tweets on application architecture.</p>
-          </a>
+
           <a
             href="https://www.linkedin.com/in/rohan-mehta-1052b570/"
             className={styles.card}
           >
-            <h3>LinkedIn</h3>
-            <p>Get in touch on LinkedIn.</p>
+            <h3>LinkedIn &rarr;</h3>
+            <p>Connect with me on LinkedIn</p>
+          </a>
+
+          <a
+            href="https://twitter.com/rohanmehta_dev"
+            className={styles.card}
+          >
+            <h3>Twitter &rarr;</h3>
+            <p>
+              Tweets on application architecture
+            </p>
           </a>
         </div>
       </main>
